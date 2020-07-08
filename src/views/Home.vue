@@ -23,11 +23,11 @@ export default {
       // console.log("changex", x.value);
     });
     onMounted(() => {
-      
+      // 对应mounted
+      console.log("mounted");
     });
     onUnmounted(() => {
       console.log("onUnmounted");
-      // alert("11");
     });
     return { x, y };
   }
