@@ -14,6 +14,7 @@ export default {
   },
   setup() {
     const state = reactive({ message: "Hello World!!!", name: "name" });
+    console.log(state)
     return {
       ...state
     };
