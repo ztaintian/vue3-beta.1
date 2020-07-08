@@ -18,7 +18,8 @@ yarn build
 ### Lints and fixes files
 ```
 yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+在项目中，执行升级命令：
+
+    vue add vue-next
