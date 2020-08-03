@@ -8,6 +8,10 @@ module.exports = {
     'eslint:recommended'
   ],
   parserOptions: {
+    ecmaFeatures:{
+      // 支持装饰器
+      legacyDecorators: true
+    },
     parser: 'babel-eslint'
   },
   rules: {
