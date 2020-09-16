@@ -8,6 +8,7 @@
   </div>
 </template>
 <style lang="stylus">
+$color = red
 #app
   font-family Avenir, Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
